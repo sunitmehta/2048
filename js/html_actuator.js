@@ -52,18 +52,18 @@ HTMLActuator.prototype.clearContainer = function (container) {
 
 HTMLActuator.prototype.addTile = function (tile) {
   var valueMap = {
-    2 :    '<Udacity>',
-    4 :    '<Intro CS>',
-    8 :    "skills=['code']",
-    16 :   "skills.add('CSS')",
-    32 :   '</Intro CS>',
-    64 :   '<Job search>',
-    128 :  'getJob(skills)',
-    256 :  '</Job search>',
-    512 :  'if Udacious:',
-    1024 : 'skills.increase()',
-    2048 : 'myJob.advance()',
-    4096 : 'myCareer=myJob'
+    2 :    ' ',
+    4 :    ' ',
+    8 :    " ",
+    16 :   " ",
+    32 :   ' ',
+    64 :   ' ',
+    128 :  ' ',
+    256 :  ' ',
+    512 :  ' ',
+    1024 : ' ',
+    2048 : ' ',
+    4096 : ' '
   }
   var self = this;
 
